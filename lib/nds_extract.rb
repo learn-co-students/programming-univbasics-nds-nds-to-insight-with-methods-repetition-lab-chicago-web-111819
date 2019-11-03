@@ -50,8 +50,8 @@ def list_of_directors(source)
               money = 0
 
               while director_index < director_name_array.length do
-                array = director_name_array[director_index]
-               money += director_money_hash[]
+               array = director_name_array[director_index]
+               money =+ director_money_hash[array]
                money =+ 1
    end
  money
